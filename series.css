@@ -1,0 +1,90 @@
+.serie{
+    height: 700px;
+    width: 1515px;
+    background-image: url(dead.jpg);
+    background-size: cover;
+    font-style: initial;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+    text-decoration: line-through;
+    border-radius: 50px;
+    border: solid black 3px;
+    text-shadow: 20px 8px 8px;
+}
+
+.anime{
+    background-color: #E03914;
+    background-size: contain;
+    font-family: 'Staatliches', cursive;
+    border-radius: 50px;
+    border: solid black 2px;
+    text-align: center;
+    font-size: medium;
+    font-style: initial;
+    text-decoration: line-through;
+    text-shadow: 20px 8px 8px;
+
+    
+   
+}
+
+ul, li{
+    display: inline;
+    margin: 0px 60px;
+    text-shadow: 20px 1px 1px 1px;
+
+}
+
+a{
+    color: black;
+    
+}
+ul:nth-child(even){
+    background-color: #E03914;
+}
+
+
+
+body{
+     background-image: url(naruto3.jpg);
+    
+}
+
+.capitulos{
+    margin:4px;
+    cursor: pointer;
+}
+    
+
+table{
+    text-align: center;
+    display: inline;
+    height: 100PX;
+    width: 300PX;
+    padding: 100px;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2{
+    color: orange;
+    text-shadow:#E03914 5px 5px 8px;
+}
+td, a:link{
+    color: black;
+}
+td, a:visited{
+    color: black;
+
+}
+td, a:hover{
+    color: orange;
+}
+
+td, a:active{
+    color:red
+}
+
+

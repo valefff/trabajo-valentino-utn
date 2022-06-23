@@ -1,0 +1,48 @@
+.serie {
+    height: 700px;
+    width: 1515px;
+    background-image: url(dead.jpg);
+    background-size: cover;
+    font-style: initial;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+    text-decoration: line-through;
+    border-radius: 50px;
+    border: solid black 3px;
+    text-shadow: 20px 8px 8px;
+}
+
+.anime{
+    background-color: #E03914;
+    font-family: 'Staatliches', cursive;
+    border-radius: 50px;
+    border: solid black 2px;
+    text-align: center;
+    font-size: medium;
+    font-style: initial;
+    text-decoration: line-through;
+    text-shadow: 20px 8px 8px;
+
+    
+   
+}
+
+ul, li{
+    display: inline;
+    margin: 0px 63px;
+    text-shadow: 20px 1px 1px 1px;
+
+}
+
+a{
+    color: black;
+    
+}
+ul:nth-child(even){
+    background-color: #E03914;
+}
+
+
+

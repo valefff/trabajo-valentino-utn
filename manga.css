@@ -1,0 +1,82 @@
+.serie {
+    height: 700px;
+    width: 1515px;
+    background-image: url(dead.jpg);
+    background-size: cover;
+    font-style: initial;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+    text-decoration: line-through;
+    border-radius: 50px;
+    border: solid black 3px;
+    text-shadow: 20px 8px 8px;
+}
+
+.anime {
+    background-color: #E03914;
+    font-family: 'Staatliches', cursive;
+    border-radius: 50px;
+    border: solid black 2px;
+    text-align: center;
+    font-size: medium;
+    font-style: initial;
+    text-decoration: line-through;
+    text-shadow: 20px 8px 8px;
+
+
+
+}
+
+body {
+    background-image: url(naruto3.jpg)
+}
+
+ul,li {
+    display: inline;
+    margin: 0px 63px;
+    text-shadow: 20px 1px 1px 1px;
+
+}
+
+a {
+    color: black;
+
+}
+
+ul:nth-child(even) {
+    background-color: #E03914;
+}
+
+
+img {
+    overflow-y: scroll;
+    transition: box-shadow 0.4s ease;
+    background-position: 500px;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: 20px 500px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+
+}
+
+img:hover {
+    box-shadow: 0 0.1rem 0.4rem red;
+}
+
+
+.imagen,h2,h4 {
+    text-align: center;
+    text-decoration: line-through;
+    color: orange;
+    text-shadow:#E03914 5px 5px 8px;
+
+
+}
+.imagen, h4{
+    text-shadow: 3px 3px 6px white;
+}
